@@ -2,12 +2,13 @@
 color: white;
 background-color: #FC6B02;
 display: flex;
-justify-content: space-between;
+gap: 3%;
 align-content: center;
 padding-left: 10%;
 padding-top: 10%;
 padding-right: 10%;
 padding-bottom: 5%;
+margin-bottom: 5%;
 }
 .faqhead{
     max-width: 456px;

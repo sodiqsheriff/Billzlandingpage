@@ -1,4 +1,6 @@
-
+.connect{
+  padding-top: 5%;
+}
 .ourcontacts{
     display: flex;
     justify-content: space-between;

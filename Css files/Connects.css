@@ -6,19 +6,21 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
-trusted{
+.trusted{
     font-family: Poppins;
     font-size: 30px;
     font-weight: 600;
-    line-height: 10px;
+    line-height: normal;
     letter-spacing: -0.02em;
-    text-align: left;
+    text-align: center;
     color: #582501;
-    text-overflow: clip;
+    text-overflow: clip; 
 }
 
-.connect{
+.con{
     display: flex;
     justify-content: center;
     font-family: Poppins;
@@ -31,6 +33,7 @@ trusted{
     text-overflow: clip;
     max-width: 671px;
     margin: auto;
+    padding: 0;
 }
 #trusted{
     padding-top: 3.5em;
