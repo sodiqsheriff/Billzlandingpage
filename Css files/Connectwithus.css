@@ -1,0 +1,80 @@
+.ourcontacts{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .Email{
+    max-width: 359px;
+    max-height: 246px;
+    text-align: center;
+  }
+  .connectimg{
+    display: flex;
+    justify-content: center;
+  }
+  .emailheadtext{
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #713001;
+  text-transform: capitalize;
+  }
+  .emailtext{
+    padding-top: 20px;
+  }
+  .emailtxt{
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #000000;
+  padding-top: 10px;
+  }
+  .officetext{
+    width: 100%;
+    display: flex;
+  justify-content: center;
+  }
+  .officetxt{
+    font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+  padding-top: 10px;
+  width: 100%;
+  text-overflow: clip;
+  }
+  .phntxt{
+    font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #000000;
+  
+  }
+  .emailtxt:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .office{
+    max-width: 359px;
+  max-height: 246px;
+  }
+  .phonenum{
+    max-width: 359px;
+  max-height: 218px;
+  }

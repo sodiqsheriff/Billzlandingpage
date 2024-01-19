@@ -1,0 +1,627 @@
+
+
+body{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+
+/* mobile screens */
+@media only screen and (max-width: 400px) {
+   
+  .Navbar{
+    max-height: 5em !important;
+    height: 100% !important;
+    padding-left: 3% !important;
+    padding-right: 3% !important;
+  }
+  #Navbarlinks{
+    display: none;
+  }
+  .navbutton{
+    display: none !important;
+  }
+  .menu-container {
+    display: flex !important;
+    justify-content: right !important; /* Align to the top right */
+    background-color: #FC6B02;
+    padding: 10px;
+}
+
+#toggle-btn,
+#exit-btn {
+    font-size: 30px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex !important;
+    flex-direction: column !important;
+
+}
+
+#menu {
+    position: absolute;
+    top: 0;
+    right: 0; /* Align to the top right */
+    width: 100%;
+    height: 100%;
+    background-color: #FC6B02;
+    display: none;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 50;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    margin-bottom: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+}
+  .herosection{
+    display: block !important;
+    justify-content: center;
+    padding-top: 8em;
+    gap: 1.9em;
+    background-color: #FC6B02;
+    color: white;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+  .aboutbillz{
+    max-width: 25em !important;
+    max-height: 56.25em !important;
+    width:100% !important;
+    height: 100% !important;
+    }
+    .herotext{
+        padding-top: 2em !important;
+        padding-bottom: 2em !important;
+    }
+    .cheap{
+        font-size: 25px !important;
+        line-height: normal !important;
+    }
+    .why{
+        font-size: medium !important;
+        padding-top: 1em !important;
+        padding-bottom: 1em !important;
+    }
+    .list{
+        font-size: medium !important;
+    }
+    #heroapplnk{
+        justify-content: center !important;
+        padding: 5% !important;
+    }
+    .heroimg > svg{
+        padding-top: 5% !important;
+        width: 100% !important;
+        height: 100% !important;
+        max-width: 25em !important;
+        max-height: 75em !important;
+        }
+
+        .subsection{
+            padding-left: 5% !important;
+            padding-right: 5% !important;
+            padding-top: 2%;
+        }
+        .trusted{
+            font-size:20px !important;
+        }
+        .connect{
+            font-size: small !important;
+        }
+        #trusted{
+            padding-top: 1.7em !important;
+            padding-bottom: 1.7em !important;
+            width: 100% !important;
+            max-width: 25em !important;
+         }
+
+         .content-section{
+            display: flex;
+            flex-direction: column !important;
+            align-items: center;
+            padding-top:5em !important;
+            padding-bottom: 10%; 
+            padding-left: 5% !important;
+            padding-right: 5% !important;
+        }
+        .services{
+            padding-left: 5% !important;
+            padding-right: 5% !important;
+        }
+        .unlock{
+            font-size: 20px !important;
+            line-height: normal !important;
+        }
+        .unlocktext{
+            font-size: small !important;
+            padding-top: 2% !important;
+            line-height: normal !important;
+        }
+        .contentimg > img{
+            max-width: 25em !important;
+            max-height: 50.75em !important;
+            border-radius: 28.14px ;
+            width: 100%;
+            height: 100%;
+            padding-top: 5% !important;
+            padding-bottom: 5% !important;
+            }
+            .experience{
+                font-size: 23px !important;
+                line-height: 25px !important;
+            }
+            .subexp{
+                font-size: small !important;
+                line-height: normal !important;
+                padding-bottom: 5% !important;
+            }
+.Personalizedsection{
+            display: block !important;
+            padding-left: 5% !important;
+            padding-right: 5% !important;
+    }
+    .personalized{
+        display: block !important;
+        max-width: 400px;
+    max-height: fit-content !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    padding-bottom: 5% !important;
+
+    }
+    .fintec{
+        width:100%  !important;
+    }
+    .personalizedtext{
+        max-width: 400px !important;
+        padding-top: 5% !important;
+        text-align: center !important;
+        text-overflow: clip;
+    }
+    .personaltext{
+        text-align: center !important;
+    }
+    .personalsubtxt{
+
+padding-bottom: 2%;    }
+    .personalizedapplink > a{
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .personalrgtimg > svg{
+        padding-top: 5% !important;
+        padding-bottom: 5% !important;
+    }
+    .withdrawsection{
+        display: block !important;
+        padding-left: 5% !important;
+    padding-right: 5% !important;
+    padding-bottom: 7% !important;
+    }
+    .framesec{
+        max-width: 400px !important;
+    }
+    .servic{
+        width: 100% !important;
+    }
+    .allsection{
+        display: none;
+    }
+    .getapp{
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+    .getapptext{
+        font-size: 23px !important;
+    }
+    #getapptext{
+        font-size: small !important;
+        line-height: normal !important;
+        text-overflow: clip !important;
+    }
+    #leftarrow{
+        display: none;
+    }
+    #rightarrow{
+        display: none;
+    }
+    .reasons{
+        padding: 5% !important;
+    }
+    .reason-headtext{
+        font-size: 23px !important;
+        max-width: 400px !important;
+        line-height: normal !important;
+    }
+    .reasontxt{
+        font-size: small !important;
+    }
+    .reason-section{
+        display: flex !important;
+        flex-direction: column !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+    .reason-img >img{
+        max-width: 20em !important;
+    }
+    .mode{
+        display: flex !important;
+        flex-direction: column !important;
+        padding-left: 0% !important;
+
+    }
+    .mode-headtext{
+        font-size: 23px !important;
+        line-height: normal !important;
+    }
+    .mode-img >img{
+        max-width: 20em !important;
+        line-height: normal !important;
+    }
+    .mode-text{
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+    .modetxt{
+        font-size: small !important;
+    }
+    .question{
+        display:block !important;
+        padding: 5% !important; 
+    }
+.faqhd{
+     font-size: 23px !important;
+     line-height: normal !important;
+      }
+      .faqdetails{
+        font-size: small !important;
+        line-height: normal !important;
+      }
+      .Questiontwo{
+        padding-top: 10% !important;
+      }
+      .contensection{
+        font-size: small !important;
+      }
+      .office{
+        padding-top: 7% !important;
+        padding-bottom: 7% !important;
+      }
+
+    .ourcontacts{
+        display: block !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+    .Footersection{
+        display: block !important;
+        padding:5% !important ;
+    }
+    .Footer{
+        display: block !important;
+    }
+    .footersubtxt{
+        max-width: 400px !important;
+    }
+    .footersubtxt{
+        max-width: 40px;
+    }
+    .footerapplink{
+        display: flex;
+        flex-direction: row !important;
+        gap: 5%;
+      }
+      .Footnavlinks{
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        padding-top: 5%;
+      }
+      .sociallinks{
+        display: flex !important;
+        flex-direction: column-reverse;
+        gap: 40px;
+        padding-top:5% ;
+        justify-content:space-between ;
+      }
+      .socialimg{
+        display: flex !important;
+        justify-content: space-between !important;
+        gap:89px;
+      }
+
+}
+     /* Styles for medium screens and up from 320px to 767px */
+     @media only screen and (min-width: 400px) and (max-width: 800px) {
+        /* Your CSS styles for medium screens go here */
+.Navbar{
+    max-height: 3.125em !important;
+    height: 100% !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    }
+    #Navbarlinks{
+    display: none !important;
+    }
+    .navbutton{
+    display: none !important;
+    }
+    .menu-container {
+    display: flex;
+    justify-content: right; /* Align to the top right */
+    background-color: #333;
+    padding: 10px;
+}
+
+#toggle-btn, #exit-btn {
+    font-size: 30px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+}
+#menu {
+    display: none;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    right: 0; /* Align to the top right */
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 50;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    margin-bottom: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+}
+    .herosection{
+    display: flex !important;
+    justify-content: space-between !important;
+    padding-top: 8em;
+    gap: 1.9em;
+    background-color: #FC6B02;
+    color: white;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    margin-bottom: 4% !important;
+    }
+    .aboutbillz{
+    max-width: 50% !important;
+    max-height: 56.25 !important;
+    width:100% !important;
+    height: 100% !important;
+    }
+    .herotext{
+        padding-top: 1em !important;
+        padding-bottom: 1em !important;
+    }
+    .cheap{
+        font-size: 25px !important;
+        line-height: normal !important;
+    }
+    .why{
+        font-size: medium !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .list{
+        font-size: medium !important;
+    }
+    #heroapplnk{
+        justify-content: center !important;
+        padding: 5% !important;
+    }
+    .heroimg > svg{
+        padding-top: 5% !important;
+        width: 100% !important;
+        height: 100% !important;
+        max-height: 75em !important;
+        }     
+.subsection{
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+.content-section{
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    padding-top:5em !important;
+    padding-bottom: 10%; 
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+.textcontent{
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    max-width: 50em !important;
+    width: 100%;
+}
+#contentsec{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.contentimg > img{
+    max-width: 800px !important;
+    max-height: 800px !important;
+    width: 100% !important;
+    border-radius: 28.14px ;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+    }
+    .center{
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+        justify-self: center !important;
+        margin: auto !important;
+        background-color: green;
+    }
+    .Personalizedsection{
+        display: block !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+}
+.personalized{
+    display: flex !important;
+    max-width: 800px;
+max-height: fit-content !important;
+padding-bottom: 5% !important;
+
+}
+.fintec{
+    width:100%  !important;
+}
+.personalizedtext{
+    max-width: 311px !important;
+    padding-top: 5% !important;
+    text-align: center !important;
+    text-overflow: clip;
+}
+.personaltext{
+    text-align: center !important;
+}
+.personalsubtxt{
+
+padding-bottom: 2%;    }
+.personalizedapplink > a{
+    display: flex !important;
+    justify-content: center !important;
+}
+.personalrgtimg > svg{
+
+        display: none;
+}
+.withdrawsection{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.framesec{
+    display: none !important;
+}
+.servic{
+    max-width: 800px !important;
+}
+
+.allsection{
+    display: flex !important;
+    max-width: 100% !important;
+    gap: 4em;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+.personergtimg > svg {
+    display: flex !important;
+    flex-direction: column !important;
+}
+.personergtimg{
+    width: 45% !important;
+    
+}
+.framesecnd {
+    display: flex !important;
+    flex-direction: column !important;
+    max-width: 45% !important;
+}
+.experience{
+    font-size: 23px;
+    line-height: 40px !important;
+}
+.reasons{
+    padding: 5% !important;
+}
+.reason-headtext{
+    font-size: 23px !important;
+    max-width: 400px !important;
+    line-height: normal !important;
+}
+.reasontxt{
+    font-size: small !important;
+}
+.reason-section{
+    display: flex !important;
+    flex-direction: row !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+.reason-img >img{
+    max-width: 20em !important;
+}
+.mode{
+    display: flex !important;
+    flex-direction: row !important;
+    gap:10px !important;
+    padding-left: 2em !important;
+
+}
+.mode-headtext{
+    font-size: 23px !important;
+    line-height: normal !important;
+}
+.mode-img >img{
+    max-width: 20em !important;
+    line-height: normal !important;
+}
+.mode-text{
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+.modetxt{
+    font-size: small !important;
+}
+.ourcontacts{
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+
+.question{
+    display: block !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+.Questiontwo{
+    max-width: 800px;
+}
+.Footersection{
+    padding: 5% !important;
+}
+}

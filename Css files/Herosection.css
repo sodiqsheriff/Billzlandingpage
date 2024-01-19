@@ -1,0 +1,108 @@
+.herosection{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+    gap: 1.9em;
+    background-color: #FC6B02;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    margin-bottom: 3%;
+}
+.aboutbillz{
+    max-width: 29em;
+    max-height: 27em;
+}
+.datacost{
+    max-width: 300px;
+    max-height: 29px;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+   
+}
+.fast{
+    max-width: 33px;
+    max-height: 13px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 8px;
+    background-color:#582501;
+    padding: 2%;
+}
+.herotext{
+    padding-bottom: 5%;
+}
+.cheap{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-overflow: clip;
+}
+.why{
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top:1.2em;
+    padding-bottom: 1em;
+}
+.styledlist{
+    padding-left: 2.5%;
+    display: flex;
+    align-items: center;
+    gap: 10.37px;
+}
+.list{
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-overflow: clip;    
+}
+.checked{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    max-width: 16px;
+    max-height: 16px;
+    border-radius: 50%;
+}
+.heroapplnk{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    max-width: 21.5em;
+    max-height: 3em;
+    gap: 2em;
+}
+#heroapplnk{
+    background-color: #57200A;
+    max-width: 164px;
+    max-height: 50px;
+    padding: 5%;
+    border-radius: 4.95px;
+
+}
+.heroimg > svg{
+    width: 100%;
+    height: 100%;
+    max-width: 25.4;
+    max-height: 31em;
+}

@@ -1,0 +1,114 @@
+.experience{
+    font-family: Poppins;
+font-size: 36px;
+font-weight: 600;
+line-height: 10px;
+letter-spacing: -0.02em;
+text-align: center;
+color: #582501;
+text-overflow: clip;
+}
+.featurestext{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    padding: 1em;
+}
+.subexp{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #556987;
+    max-width: 800px;
+    margin: auto;
+    text-overflow: clip;
+}
+.Personalizedsection{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    max-width: 1035px;
+}
+.personalized{
+    background-color: #D9D9D9;
+    display: flex;
+    gap: 20px;
+    padding-left: 2.5em;
+    max-width: 700px;
+    max-height: 297px;
+    border-radius: 20px;
+}
+.personalizedtext{
+    max-width: 311px;
+    padding-top: 12%;
+    padding-bottom: 5%;
+}
+.personaltext{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.personalsubtxt{
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color: #0B454F;
+padding-top: 2%;
+padding-bottom: 1%;
+}
+.personalrgtimg > svg{
+max-width: 350px;
+max-height: 297px;
+border-radius: 20px;
+}
+.personalizedapplink{
+    display: flex;
+    justify-content: left;
+    gap: 12px;
+    max-width: 215px;
+    max-height: 31px;
+}
+.personalizedapplink > a > img{
+  background-color: black;
+  max-height: 102px;
+  max-height: 31px;
+  border-radius: 3px;
+  padding: 2%;
+}
+.servic{
+    padding-top: 2em;
+}
+.withdrawsection{
+    display: flex;
+    gap: 25px;
+    margin: auto;
+    padding-top: 1%;
+    max-width: 1035px;
+}
+.framesec{
+    max-width: 347px;
+}
+.withdrawtext{
+    padding-top: 5%;
+    max-width: 311px;
+}
+.allsection{
+    display: none ;
+}
+.personergtimg > svg{
+    display: none;
+}
+.framesecnd{
+    display: none;
+}

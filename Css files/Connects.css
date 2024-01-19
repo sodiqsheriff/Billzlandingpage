@@ -1,0 +1,40 @@
+.subsection{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.trustee{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+trusted{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 10px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #582501;
+    text-overflow: clip;
+}
+
+.connect{
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color:#5E6C84 ;
+    text-overflow: clip;
+    max-width: 671px;
+    margin: auto;
+}
+#trusted{
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
+    width: 100%;
+    max-width: 1147.34px;
+}

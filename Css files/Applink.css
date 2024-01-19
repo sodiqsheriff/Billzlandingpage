@@ -1,0 +1,54 @@
+.getapp{
+    max-height: 323px;
+    background-color: #FC6B02;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+}
+.getapptext{
+font-family: Poppins;
+font-size: 38px;
+font-weight: 800;
+line-height: 50px;
+letter-spacing: 0em;
+text-align: center;
+text-overflow: clip;
+}
+#getapptext{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    max-width: 550px;
+    max-height: 92px;
+    margin: auto;
+}
+#leftarrow{
+    align-self: flex-start;
+}
+#rightarrow{
+   align-self: flex-end;
+}
+.getapplink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 5%;
+}
+.getapplink >a >img{
+    background-color: black;
+    max-width: 164px;
+    max-height: 50px;
+    border-radius: 5px;
+    padding: 3%;
+}
