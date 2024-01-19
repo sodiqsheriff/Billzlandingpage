@@ -9,31 +9,26 @@ overflow-x: hidden;
 /* mobile screens */
 @media only screen and (max-width: 600px) {
 .Navbar{
+    justify-content: space-between;
     max-height: 5em !important;
-    height: 100% !important;
-    padding-left: 3% !important;
-    padding-right: 3% !important;
+    /* height: 1 !important; */
+    padding-left: 5% !important;
+    padding-right: 5% !important;
 }
 #Navbarlinks{display: none;}
 .navbutton{display: none !important;}
 
-.navbtn >img{
+.navbtn{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #57200A;
+    background: #57200A;
     border-radius: 7px;
-    height: 100%;
-    width: 100%;
-    max-width: 156px;
-    max-height: 42px;
-    padding: 10%;
+    width: 156px;
+    height: 42px;
 }
 .menu-container {
     display: flex !important;
     justify-content: right !important; /* Align to the top right */
-    background-color: #FC6B02;
-    padding: 10px;
+    /* padding-left: 5px; */
 }
 #toggle-btn,
 #exit-btn {
@@ -51,20 +46,23 @@ overflow-x: hidden;
     right: 0 !important; /* Align to the top right */
     bottom: 0 !important;
     width: 100%;
-    height: 100%;
+    max-height: 100000%;
     background-color: #FC6B02;
     display: none;
     flex-direction: column;
     padding: 20px;
     box-sizing: border-box;
-    z-index: 50;
+    z-index: 5;
 }
 #menu ul {
     list-style: none;
-    padding-left: 0;
-    padding-bottom: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
     padding-top: 10%;
     margin: 0;
+    background-color: #FC6B02;
+
 }
 #menu li {
     margin-bottom: 20px;
@@ -72,6 +70,7 @@ overflow-x: hidden;
 #menu a {
     text-decoration: none;
     color: white;
+    background-color: #FC6B02;
 }
 .herosection{
     display: block !important;
@@ -181,6 +180,15 @@ overflow-x: hidden;
     padding-right: 5% !important;
 }
 .personalized{
+    display: block !important;
+    max-width: 400px;
+    max-height: fit-content !important;
+    padding-top: 5% !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    padding-bottom: 5% !important;
+}
+.intuitive{
     display: block !important;
     max-width: 400px;
     max-height: fit-content !important;
@@ -372,7 +380,11 @@ line-height: normal !important;
 /* Styles for medium screens and up */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
     /* Your CSS styles for medium screens go here */
-
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
 .Navbar{
     max-height: 3.125em !important;
     height: 100% !important;
@@ -387,14 +399,12 @@ line-height: normal !important;
 }
 .navbtn{
     display: flex;
-    background-color: #57200A;
+    justify-content: center;
+    align-items: center;
+    background: #57200A;
     border-radius: 7px;
-    height: 100%;
-    width: 100%;
-    max-width: 156px;
-    max-height: 42px;
-    padding: 10%;
-    color: white;
+    width: 156px;
+    height: 42px;
 }
 .menu-container {
     display: flex !important;
@@ -535,6 +545,8 @@ line-height: normal !important;
     max-width: 100% !important;
     max-height: 200em !important;
     width: 100% !important;
+    padding-left: 0em !important;
+
 }
 .fintec{
     width:100%  !important;
