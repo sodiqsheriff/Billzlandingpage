@@ -4,14 +4,15 @@ body{
     font-family: 'poppins', sans-serif;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    max-width: 100%;
+overflow-x: visible;
 }
 
 
 
 /* mobile screens */
-@media only screen and (max-width: 400px) {
-   
+@media only screen and (max-width: 600px) {
+ 
   .Navbar{
     max-height: 5em !important;
     height: 100% !important;
@@ -350,8 +351,14 @@ padding-bottom: 2%;    }
 
 }
      /* Styles for medium screens and up from 320px to 767px */
-     @media only screen and (min-width: 400px) and (max-width: 800px) {
+     @media only screen and (min-width: 600px) and (max-width: 800px) {
         /* Your CSS styles for medium screens go here */
+        body{
+            padding: 0;
+            margin: 0;
+            overflow-clip-margin:initial;
+        }
+       
 .Navbar{
     max-height: 3.125em !important;
     height: 100% !important;
