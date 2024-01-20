@@ -595,9 +595,8 @@ body{
     width:100%  !important;
 }
 .personalizedtext{
-    max-width: 100% !important;
+    max-width: 800px !important;
     width: 100% !important;
-    width: fit-content !important;
     padding-top: 5% !important;
     text-align: center !important;
     text-overflow: clip;
