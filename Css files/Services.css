@@ -1,14 +1,10 @@
 
-.services-btn{
+.services-btn {
     display: flex;
     justify-content: center;
-}
-.services-btn {
-display: flex;
-justify-content: center;
-width: 100%;
-height: 100%;
-gap: 10px;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
 }
 .services-btn > a{
     font-family: Poppins;
