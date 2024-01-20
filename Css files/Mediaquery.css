@@ -14,7 +14,7 @@ max-width: 100%;
     /* height: 1 !important; */
     padding-left: 5% !important;
     padding-right: 5% !important;
-    max-width:100% !important;
+    max-width:90% !important;
 }
 #Navbarlinks{display: none;}
 .navbutton{display: none !important;}
@@ -413,7 +413,7 @@ body{
     height: 100% !important;
     padding-left: 5% !important;
     padding-right: 5% !important;
-    max-width: 100% !important;
+    max-width: 90% !important;
 }
 #Navbarlinks{
     display: none !important;
