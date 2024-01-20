@@ -156,11 +156,10 @@ max-width: 100%;
     padding-right: 5% !important;
 }
 .unlocktext{
-    max-width: 10px !important;
+    max-width: 100% !important;
     padding-left: 5% !important;
     padding-right: 5% !important;
     font-size: small !important;
-    padding-top: 2% !important;
     line-height: normal !important;
 }
 .unlock{
@@ -581,6 +580,7 @@ body{
     max-height: fit-content !important;
     padding-bottom: 5% !important;
     padding-left: 5% !important;
+    padding-right: 8% !important;
 }
 .intuitive{
     max-height: 200em !important;
@@ -606,7 +606,7 @@ body{
 }
 .personalsubtxt{
     padding-bottom: 2%;   
-    max-width: 100% !important;
+    max-width: 800px !important;
     width: 100% !important;
 }
 .personalizedapplink > a{
@@ -615,6 +615,9 @@ body{
 }
 .personalrgtimg > svg{
     display: none;
+}
+.withdrawtext{
+    max-width: 100% !important;
 }
 .withdrawsection{
     padding-left: 5%;
@@ -628,7 +631,7 @@ body{
 }
 .allsection{
     display: flex !important;
-    max-width: 600px !important;
+    max-width: 800px !important;
     max-height: fit-content;
     gap: 5% !important;
     padding-top: 5%;
@@ -639,7 +642,8 @@ body{
 .personergtimg > svg {
     display: flex !important;
     flex-direction: column !important;
-   
+   width: 100% !important;
+   max-width: 800px !important;
 }
 .personergtimg{
     width: 100% !important;
@@ -648,7 +652,8 @@ body{
 .framesecnd {
     display: flex !important;
     flex-direction: column !important;
-    width: 52% !important;
+    width: 100% !important;
+    max-width: 800px !important;
 }
 
 .experience{
