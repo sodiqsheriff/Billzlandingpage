@@ -607,7 +607,7 @@ body{
 }
 .personalsubtxt{
     padding-bottom: 2%;   
-    max-width: 800px !important;
+    max-width: 900px !important;
     width: 100% !important;
 }
 .personalizedapplink > a{
@@ -632,7 +632,7 @@ body{
 }
 .allsection{
     display: flex !important;
-    max-width: 800px !important;
+    max-width: 100% !important;
     max-height: fit-content;
     gap: 5% !important;
     padding-top: 5%;
@@ -644,7 +644,7 @@ body{
     display: flex !important;
     flex-direction: column !important;
    width: 100% !important;
-   max-width: 800px !important; 
+   max-width: 900px !important; 
    max-height: 100% !important;
    height: fit-content !important;
 }

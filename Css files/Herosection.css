@@ -26,18 +26,19 @@
    
 }
 .fast{
-    max-width: 40px;
-    max-height: 13px;
+    width: 35px;
+    height: 17px;
     font-family: Poppins;
     font-size: 10px;
     font-weight: 500;
     line-height: 1em;
     letter-spacing: 0em;
     text-align: center;
-    border-radius: 30px;
+    border-radius: 16px;
     background-color:#582501;
-    padding: 2%;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
 .herotext{
     padding-bottom: 5%;
 }
