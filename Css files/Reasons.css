@@ -19,17 +19,17 @@
     text-overflow: clip;
 }
 .reason-headtext{
-font-family: Poppins;
+font-family: Albert Sans;
 font-size: 38px;
-font-weight: 800;
+font-weight: 900;
 line-height: 50px;
 letter-spacing: 0em;
 text-align: left;
-max-width: 462px;
+max-width: 400px;
 color:#713001 ;
 }
 .reasontxt{
-font-family: Poppins;
+font-family: Albert Sans;
 font-size: 16px;
 font-weight: 500;
 line-height: 24px;
@@ -40,7 +40,7 @@ color: #0B454F;
 .reason-text >a{
     text-decoration: underline;
     color:#A80936 ;
-    font-family: Poppins;
+    font-family: Albert Sans;
     font-size: 17px;
     font-weight: 500;
     line-height: 26px;
@@ -68,7 +68,7 @@ color: #0B454F;
 .mode-text >a{
     text-decoration: underline;
     color:#A80936 ;
-    font-family: Poppins;
+    font-family: Albert Sans;
     font-size: 17px;
     font-weight: 500;
     line-height: 26px;
@@ -76,9 +76,9 @@ color: #0B454F;
     text-align: left;
 }
 .mode-headtext{
-    font-family: Poppins;
+    font-family: Albert Sans;
     font-size: 38px;
-    font-weight: 800;
+    font-weight: 900;
     line-height: 50px;
     letter-spacing: 0em;
     text-align: left;
@@ -86,7 +86,7 @@ color: #0B454F;
     text-overflow: clip;
 }
 .modetxt{
-    font-family: Poppins;
+    font-family: Albert Sans;
     font-size: 17px;
     font-weight: 500;
     line-height: 26px;

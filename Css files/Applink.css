@@ -13,16 +13,16 @@
     color: white;
 }
 .getapptext{
-font-family: Poppins;
-font-size: 38px;
-font-weight: 800;
-line-height: 50px;
-letter-spacing: 0em;
-text-align: center;
-text-overflow: clip;
+    font-family: Albert Sans;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-overflow: clip;
 }
 #getapptext{
-    font-family: Poppins;
+    font-family: Albert Sans;
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
@@ -42,13 +42,16 @@ text-overflow: clip;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 10%;
     padding-top: 5%;
 }
 .getapplink >a >img{
-    background-color: black;
+    background-color: #57200A;
     max-width: 164px;
     max-height: 50px;
     border-radius: 5px;
-    padding: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10% ;
+    padding-right: 10%;
 }

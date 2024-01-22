@@ -14,7 +14,7 @@ margin-bottom: 5%;
     max-width: 456px;
 }
 .faq{
-font-family: Poppins;
+font-family: Albert sans;
 font-size: 12px;
 font-weight: 500;
 letter-spacing: 0em;
@@ -25,7 +25,7 @@ border-radius: 36px;
 text-transform: uppercase;
 }
 .faqhd{
-font-family: Poppins;
+font-family: Albert sans;
 font-size: 48px;
 font-weight: 700;
 line-height: 60px;
@@ -34,7 +34,7 @@ text-align: left;
 text-overflow: clip;
 }
 .faqdetails{
-font-family: Poppins;
+font-family: Albert sans;
 font-size: 20px;
 font-weight: 500;
 line-height: 30px;
@@ -46,6 +46,9 @@ text-overflow: clip;
     width: 100%;
     max-width: 536px;
 }
+.dropdowncontent{
+    display: none;
+}
 .discounted{
     display: flex;
     justify-content: space-between;
@@ -53,7 +56,7 @@ text-overflow: clip;
    
 }
 .discountedplans{
-font-family: Poppins;
+font-family: Albert sans;
 font-size: 20px;
 font-weight: 700;
 line-height: 30px;
@@ -62,7 +65,7 @@ text-align: left;
 }
 .contensection{
 padding: 0; 
-font-family: Poppins;
+font-family: Albert sans;
 font-size: 16px;
 font-weight: 500;
 line-height: 24px;

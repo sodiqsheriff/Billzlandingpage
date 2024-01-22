@@ -10,9 +10,9 @@
     margin: 0;
 }
 .trusted{
-    font-family: Poppins;
+    font-family: Albert Sans;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 800;
     line-height: normal;
     letter-spacing: -0.02em;
     text-align: center;
@@ -23,7 +23,7 @@
 .con{
     display: flex;
     justify-content: center;
-    font-family: Poppins;
+    font-family: Albert Sans;
     font-size: 18px;
     font-weight: 500;
     line-height: 20px;
@@ -31,7 +31,7 @@
     text-align: center;
     color:#5E6C84 ;
     text-overflow: clip;
-    max-width: 671px;
+    max-width: 570px;
     margin: auto;
     padding: 0;
 }

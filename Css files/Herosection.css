@@ -2,7 +2,7 @@
 .herosection{
     display: flex;
     justify-content: space-between;
-    padding-top: 5em;
+    padding-top: 8em;
     gap: 1.9em;
     background-color: #FC6B02;
     color: white;
@@ -28,7 +28,7 @@
 .fast{
     width: 35px;
     height: 17px;
-    font-family: Poppins;
+    font-family: Albert Sans;
     font-size: 10px;
     font-weight: 500;
     line-height: 1em;
@@ -44,22 +44,22 @@
     padding-bottom: 5%;
 }
 .cheap{
-    font-family: Poppins;
+    font-family: Albert Sans;
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 900;
     line-height: 50px;
     letter-spacing: 0em;
     text-align: left;
     text-overflow: clip;
 }
 .why{
-    font-family: Poppins;
+    font-family: Albert Sans;
     font-size: 17px;
     font-weight: 500;
     line-height: 1.5em;
     letter-spacing: 0em;
     text-align: left;
-    padding-top:1.2em;
+    padding-top: 0%;
     padding-bottom: 1em;
 }
 .styledlist{
@@ -69,7 +69,7 @@
     gap: 10px;
 }
 .list{
-    font-family: Poppins;
+    font-family: Albert Sans;
     font-size: 17px;
     font-weight: 500;
     line-height: 25px;
@@ -98,7 +98,10 @@
     background-color: #57200A;
     max-width: 164px;
     max-height: 50px;
-    padding: 5%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-left: 9%;
+    padding-right: 9%;
     border-radius: 4.95px;
 
 }

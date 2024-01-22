@@ -18,10 +18,13 @@
     display: flex;
     justify-content: center;
   }
+  .emailtext > a{
+     text-decoration: none;
+  }
   .emailheadtext{
-  font-family: Poppins;
+  font-family: Albert Sans;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 900;
   letter-spacing: 0em;
   text-align: center;
   color: #713001;
@@ -31,7 +34,7 @@
     padding-top: 20px;
   }
   .emailtxt{
-  font-family: Poppins;
+  font-family: Albert Sans;
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0em;
@@ -47,7 +50,7 @@
   justify-content: center;
   }
   .officetxt{
-    font-family: Poppins;
+    font-family: Albert Sans;
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0em;
@@ -56,9 +59,10 @@
   padding-top: 10px;
   width: 100%;
   text-overflow: clip;
+  text-decoration: none;
   }
   .phntxt{
-    font-family: Poppins;
+    font-family: Albert Sans;
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;

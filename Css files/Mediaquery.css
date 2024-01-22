@@ -1,9 +1,11 @@
-
+*{
+    font-family: 'Albert Sans', sans-serif;
+}
 body{
-font-family: 'poppins', sans-serif;
-margin: 0;
-padding: 0;
-max-width: 100%;
+    font-family: 'Albert Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
 }
 
 /* mobile screens */
@@ -160,7 +162,7 @@ max-width: 100%;
     padding-left: 5% !important;
     padding-right: 5% !important;
     font-size: small !important;
-    line-height: normal !important;
+    line-height: 20px !important;
 }
 .unlock{
     font-size: 20px !important;

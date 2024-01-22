@@ -4,14 +4,13 @@ var arr = Array();
 discounted.forEach(element => {
     arr.push(element);
     element.addEventListener('click', ()=>{
+        discounted.forEach(e => {
+            let dis= document.getElementById(`content-${arr.indexOf(e)}`);
+            dis.style.display = 'none';
+            e.src = './images/vector.png';
+        });
         var content= document.getElementById(`content-${arr.indexOf(element)}`);
-        if (content.style.display === 'none'){
-            content.style.display = 'block';
-            element.src = './images/vector2.png';
-        }
-        else{
-            content.style.display = 'none';
-            element.src = './images/vector.png';
-        }
+        content.style.display = 'block';
+        element.src = './images/vector2.png';
    })
 });
