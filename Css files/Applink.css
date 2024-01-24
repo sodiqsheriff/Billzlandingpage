@@ -42,12 +42,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10%;
+    gap: 7%;
     padding-top: 5%;
 }
 .getapplink >a >img{
     background-color: #57200A;
-    max-width: 164px;
+    max-width: 100px;
     max-height: 50px;
     border-radius: 5px;
     padding-top: 5%;
